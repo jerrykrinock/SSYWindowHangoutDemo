@@ -10,14 +10,14 @@
 		48F1212417EB67FF0079ADB0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F1212317EB67FF0079ADB0 /* Cocoa.framework */; };
 		48F1212E17EB67FF0079ADB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48F1212C17EB67FF0079ADB0 /* InfoPlist.strings */; };
 		48F1213017EB68000079ADB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F1212F17EB68000079ADB0 /* main.m */; };
-		48F1213417EB68000079ADB0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 48F1213217EB68000079ADB0 /* Credits.rtf */; };
 		48F1213717EB68000079ADB0 /* WHOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F1213617EB68000079ADB0 /* WHOAppDelegate.m */; };
-		48F1213A17EB68000079ADB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F1213817EB68000079ADB0 /* MainMenu.xib */; };
 		48F1213C17EB68000079ADB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F1213B17EB68000079ADB0 /* Images.xcassets */; };
 		48F1214317EB68000079ADB0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F1214217EB68000079ADB0 /* XCTest.framework */; };
 		48F1214417EB68000079ADB0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F1212317EB67FF0079ADB0 /* Cocoa.framework */; };
-		48F1214C17EB68000079ADB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48F1214A17EB68000079ADB0 /* InfoPlist.strings */; };
-		48F1214E17EB68000079ADB0 /* SSYWindowHangoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F1214D17EB68000079ADB0 /* SSYWindowHangoutDemoTests.m */; };
+		48F1215917EB68820079ADB0 /* SSYWindowHangout.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F1215817EB68820079ADB0 /* SSYWindowHangout.m */; };
+		48F1215B17EB78050079ADB0 /* WindowInNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F1215A17EB78050079ADB0 /* WindowInNib.xib */; };
+		48F1215D17EB781A0079ADB0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 48F1215C17EB781A0079ADB0 /* README.md */; };
+		48F1215F17EB79F20079ADB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F1215E17EB79F20079ADB0 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,16 +40,16 @@
 		48F1212D17EB67FF0079ADB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48F1212F17EB68000079ADB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48F1213117EB68000079ADB0 /* SSYWindowHangoutDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSYWindowHangoutDemo-Prefix.pch"; sourceTree = "<group>"; };
-		48F1213317EB68000079ADB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		48F1213517EB68000079ADB0 /* WHOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHOAppDelegate.h; sourceTree = "<group>"; };
 		48F1213617EB68000079ADB0 /* WHOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHOAppDelegate.m; sourceTree = "<group>"; };
-		48F1213917EB68000079ADB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		48F1213B17EB68000079ADB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48F1214117EB68000079ADB0 /* SSYWindowHangoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSYWindowHangoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F1214217EB68000079ADB0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		48F1214917EB68000079ADB0 /* SSYWindowHangoutDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSYWindowHangoutDemoTests-Info.plist"; sourceTree = "<group>"; };
-		48F1214B17EB68000079ADB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		48F1214D17EB68000079ADB0 /* SSYWindowHangoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSYWindowHangoutDemoTests.m; sourceTree = "<group>"; };
+		48F1215717EB68820079ADB0 /* SSYWindowHangout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSYWindowHangout.h; sourceTree = SOURCE_ROOT; };
+		48F1215817EB68820079ADB0 /* SSYWindowHangout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSYWindowHangout.m; sourceTree = SOURCE_ROOT; };
+		48F1215A17EB78050079ADB0 /* WindowInNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowInNib.xib; sourceTree = "<group>"; };
+		48F1215C17EB781A0079ADB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = SSYWindowHangoutDemo/README.md; sourceTree = "<group>"; wrapsLines = 0; };
+		48F1215E17EB79F20079ADB0 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,10 @@
 		48F1211717EB67FF0079ADB0 = {
 			isa = PBXGroup;
 			children = (
+				48F1215C17EB781A0079ADB0 /* README.md */,
+				48F1215717EB68820079ADB0 /* SSYWindowHangout.h */,
+				48F1215817EB68820079ADB0 /* SSYWindowHangout.m */,
 				48F1212917EB67FF0079ADB0 /* SSYWindowHangoutDemo */,
-				48F1214717EB68000079ADB0 /* SSYWindowHangoutDemoTests */,
 				48F1212217EB67FF0079ADB0 /* Frameworks */,
 				48F1212117EB67FF0079ADB0 /* Products */,
 			);
@@ -115,43 +117,17 @@
 		48F1212917EB67FF0079ADB0 /* SSYWindowHangoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				48F1215E17EB79F20079ADB0 /* MainMenu.xib */,
 				48F1213517EB68000079ADB0 /* WHOAppDelegate.h */,
 				48F1213617EB68000079ADB0 /* WHOAppDelegate.m */,
-				48F1213817EB68000079ADB0 /* MainMenu.xib */,
+				48F1215A17EB78050079ADB0 /* WindowInNib.xib */,
 				48F1213B17EB68000079ADB0 /* Images.xcassets */,
-				48F1212A17EB67FF0079ADB0 /* Supporting Files */,
-			);
-			path = SSYWindowHangoutDemo;
-			sourceTree = "<group>";
-		};
-		48F1212A17EB67FF0079ADB0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				48F1212B17EB67FF0079ADB0 /* SSYWindowHangoutDemo-Info.plist */,
 				48F1212C17EB67FF0079ADB0 /* InfoPlist.strings */,
 				48F1212F17EB68000079ADB0 /* main.m */,
 				48F1213117EB68000079ADB0 /* SSYWindowHangoutDemo-Prefix.pch */,
-				48F1213217EB68000079ADB0 /* Credits.rtf */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		48F1214717EB68000079ADB0 /* SSYWindowHangoutDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				48F1214D17EB68000079ADB0 /* SSYWindowHangoutDemoTests.m */,
-				48F1214817EB68000079ADB0 /* Supporting Files */,
-			);
-			path = SSYWindowHangoutDemoTests;
-			sourceTree = "<group>";
-		};
-		48F1214817EB68000079ADB0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				48F1214917EB68000079ADB0 /* SSYWindowHangoutDemoTests-Info.plist */,
-				48F1214A17EB68000079ADB0 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = SSYWindowHangoutDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F1215D17EB781A0079ADB0 /* README.md in Resources */,
+				48F1215F17EB79F20079ADB0 /* MainMenu.xib in Resources */,
 				48F1212E17EB67FF0079ADB0 /* InfoPlist.strings in Resources */,
 				48F1213C17EB68000079ADB0 /* Images.xcassets in Resources */,
-				48F1213417EB68000079ADB0 /* Credits.rtf in Resources */,
-				48F1213A17EB68000079ADB0 /* MainMenu.xib in Resources */,
+				48F1215B17EB78050079ADB0 /* WindowInNib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F1214C17EB68000079ADB0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +231,7 @@
 			files = (
 				48F1213017EB68000079ADB0 /* main.m in Sources */,
 				48F1213717EB68000079ADB0 /* WHOAppDelegate.m in Sources */,
+				48F1215917EB68820079ADB0 /* SSYWindowHangout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F1214E17EB68000079ADB0 /* SSYWindowHangoutDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,30 +261,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		48F1213217EB68000079ADB0 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48F1213317EB68000079ADB0 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		48F1213817EB68000079ADB0 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48F1213917EB68000079ADB0 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		48F1214A17EB68000079ADB0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48F1214B17EB68000079ADB0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -318,7 +270,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -355,7 +307,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -465,6 +417,7 @@
 				48F1215317EB68000079ADB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48F1215417EB68000079ADB0 /* Build configuration list for PBXNativeTarget "SSYWindowHangoutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +426,7 @@
 				48F1215617EB68000079ADB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
