@@ -2,7 +2,7 @@
 
 /*
  @brief    Provides a place for window controllers that control transient
- windows to "hang out" without being deallocced, so that you don't to junk
+ windows to "hang out" without being deallocced, so that you don't junk
  up your app delegate with repeated boilerplate code and instance variables.
  */
 @interface SSYWindowHangout : NSObject {
